@@ -13,7 +13,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.1.2
+    $version_release = 1.1.3
     $version_dcendents = 2.1
 
 What's New??
@@ -43,7 +43,7 @@ What's New??
 ### Step 2. Add the dependency (build.gradle : Module)
 
     dependencies {
-        implementation 'com.github.amirisback:jitpack-library-groovy-guide:1.1.2'
+        implementation 'com.github.amirisback:jitpack-library-groovy-guide:1.1.3'
     }
 
 ## ScreenShoot External Libraries Implementation

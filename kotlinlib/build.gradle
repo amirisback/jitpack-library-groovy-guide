@@ -10,8 +10,9 @@ java {
 }
 
 dependencies {
-    implementation("com.google.code.gson:gson:2.8.8")
+    implementation "com.google.code.gson:gson:2.8.8"
 }
+
 
 group = projectKotlinLibraryId
 version = projectVersionName
@@ -21,6 +22,8 @@ publishing {
 
         // Creates a Maven publication called "release".
         release(MavenPublication) {
+
+            from components.java
 
             // Library Package Name (Example : "com.frogobox.androidfirstlib")
             // NOTE : Different GroupId For Each Library / Module, So That Each Library Is Not Overwritten

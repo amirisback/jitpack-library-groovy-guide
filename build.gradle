@@ -8,7 +8,7 @@ buildscript {
 
         versionMajor = 1
         versionMinor = 1
-        versionPatch = 2
+        versionPatch = 3
 
         appDomain = "com"
         appDevConsole = "frogobox"
